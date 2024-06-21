@@ -31,6 +31,7 @@ body {
    -ms-border-radius: 1rem;
    -o-border-radius: 1rem;
    overflow: auto;
+   margin-left: 0.25rem;
 }
 .music-player{
    background-color: rgb(0, 0, 0); 
@@ -146,4 +147,39 @@ a{
     margin-top: 0.5rem;
     height: 2rem;
     width: fit-content;
+}
+
+.dark-badge{
+    background-color: black;
+    color: white;
+}
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: #161616;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons{
+    margin-left: 0.75rem;
+} 
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+@media (max-width: 1000px){
+    .hide{
+        display: none;
+    }
 }
